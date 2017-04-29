@@ -16,7 +16,6 @@ public class StampedLockTest {
         Map<String, String> map = new HashMap<>();
         //StampedLock is not Reentrant, may cause DeadLock
         StampedLock lock = new StampedLock();
-
         executorService.submit(() -> {
            long stamp = lock.writeLock();
            try {
