@@ -109,13 +109,13 @@ Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.31-b07 mixed mode):
 
 "Thread-1" #11 prio=5 os_prio=31 tid=0x00007fe6d483f800 nid=0x4f03 waiting for monitor entry [0x00000001dd657000]
    java.lang.Thread.State: BLOCKED (on object monitor)
-	at com.fdu.rissy.deadlock.HasDeadLock$Thread2.run(HasDeadLock.java:41)
+	at HasDeadLock$Thread2.run(HasDeadLock.java:41)
 	- waiting to lock <0x000000016982d0f0> (a java.lang.Object)
 	- locked <0x000000016982d100> (a java.lang.Object)
 
 "Thread-0" #10 prio=5 os_prio=31 tid=0x00007fe6d483e800 nid=0x4d03 waiting for monitor entry [0x00000001dd554000]
    java.lang.Thread.State: BLOCKED (on object monitor)
-	at com.fdu.rissy.deadlock.HasDeadLock$Thread1.run(HasDeadLock.java:24)
+	at HasDeadLock$Thread1.run(HasDeadLock.java:24)
 	- waiting to lock <0x000000016982d100> (a java.lang.Object)
 	- locked <0x000000016982d0f0> (a java.lang.Object)
 
@@ -194,11 +194,11 @@ Found one Java-level deadlock:
 Java stack information for the threads listed above:
 ===================================================
 "Thread-1":
-	at com.fdu.rissy.deadlock.HasDeadLock$Thread2.run(HasDeadLock.java:41)
+	at HasDeadLock$Thread2.run(HasDeadLock.java:41)
 	- waiting to lock <0x000000016982d0f0> (a java.lang.Object)
 	- locked <0x000000016982d100> (a java.lang.Object)
 "Thread-0":
-	at com.fdu.rissy.deadlock.HasDeadLock$Thread1.run(HasDeadLock.java:24)
+	at HasDeadLock$Thread1.run(HasDeadLock.java:24)
 	- waiting to lock <0x000000016982d100> (a java.lang.Object)
 	- locked <0x000000016982d0f0> (a java.lang.Object)
 
