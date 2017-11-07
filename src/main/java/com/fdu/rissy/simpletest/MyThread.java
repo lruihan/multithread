@@ -59,18 +59,49 @@ public class MyThread extends Thread {
 //        }
 //    }
 
-    private int i = 0;
+//    private int i = 0;
+//    @Override
+//    public void run() {
+//        try {
+////            while (true) {
+////                i++;
+////                System.out.println("i=" + i);
+////                Thread.sleep(1000);
+////            }
+//            this.stop();
+//        } catch (ThreadDeath e) {
+//            e.printStackTrace();
+//        }
+//    }
+
+    private long i = 0;
+    public long getI() {
+        return i;
+    }
+    public void setI(long i) {
+        this.i = i;
+    }
     @Override
     public void run() {
         try {
-//            while (true) {
-//                i++;
-//                System.out.println("i=" + i);
-//                Thread.sleep(1000);
-//            }
-            this.stop();
-        } catch (ThreadDeath e) {
+            while (true) {
+                i++;
+                System.out.println(i);
+                Thread.sleep(1000);
+            }
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
+//    @Override
+//    public void run() {
+//        long beginTime = System.currentTimeMillis();
+//        int count = 0;
+//        for (int i = 0; i < 50000000; i++) {
+//            Thread.yield();
+//            count = count + (i + 1);
+//        }
+//        long endTime = System.currentTimeMillis();
+//        System.out.println("cost " + (endTime - beginTime) + " ms!");
+//    }
 }
