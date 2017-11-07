@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.deadlock;
+package com.fdu.rissy.deadlock;
 
 import java.util.concurrent.atomic.AtomicLong;
 

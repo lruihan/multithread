@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy;
+package com.fdu.rissy;
 
 /**
  * Created by lins13 on 4/21/17.

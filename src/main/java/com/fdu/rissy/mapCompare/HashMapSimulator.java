@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.mapCompare;
+package com.fdu.rissy.mapCompare;
 
 import java.util.Collections;
 import java.util.HashMap;

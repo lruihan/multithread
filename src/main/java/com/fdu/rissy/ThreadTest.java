@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy;
+package com.fdu.rissy;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

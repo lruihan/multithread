@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy;
+package com.fdu.rissy;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

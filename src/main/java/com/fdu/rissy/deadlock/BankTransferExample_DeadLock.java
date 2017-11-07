@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.deadlock;
+package com.fdu.rissy.deadlock;
 
 public class BankTransferExample_DeadLock {
 

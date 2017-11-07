@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.memoizer;
+package com.fdu.rissy.memoizer;
 
 import java.util.Map;
 import java.util.concurrent.*;

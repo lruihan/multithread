@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.threadpool;
+package com.fdu.rissy.threadpool;
 
 /**
  * Created by lruihan on 4/22/17.

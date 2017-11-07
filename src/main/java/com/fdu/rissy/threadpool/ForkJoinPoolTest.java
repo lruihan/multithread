@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.threadpool;
+package com.fdu.rissy.threadpool;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;

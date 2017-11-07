@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.producer_consumer;
+package com.fdu.rissy.producer_consumer;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;

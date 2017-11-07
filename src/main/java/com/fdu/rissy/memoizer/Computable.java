@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy.memoizer;
+package com.fdu.rissy.memoizer;
 
 /**
  * Created by lruihan on 4/29/17.

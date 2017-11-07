@@ -1,4 +1,4 @@
-package main.java.com.fdu.rissy;
+package com.fdu.rissy;
 
 import java.util.concurrent.CountDownLatch;
 
