@@ -1,4 +1,4 @@
-package com.fdu.rissy.simpletest;
+package com.fdu.rissy.threadtest;
 
 /**
  * @author lins13

@@ -1,8 +1,7 @@
-package com.fdu.rissy.simpletest;
+package com.fdu.rissy.threadtest;
 
-import java.util.Random;
+public class MyThread1 extends Thread {
 
-public class MyThread2 extends Thread {
 //    @Override
 //    public void run() {
 ////        System.out.println("MyThread1 run priority=" + this.getPriority());
@@ -18,7 +17,7 @@ public class MyThread2 extends Thread {
 //            }
 //        }
 //        long endTime = System.currentTimeMillis();
-//        System.out.println("****** thread 2 use time=" + (endTime - beginTime));
+//        System.out.println("****** thread 1 use time=" + (endTime - beginTime));
 //    }
     private long i = 0;
     public long getI() {
