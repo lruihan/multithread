@@ -1,24 +1,33 @@
 package com.fdu.rissy;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class Test {
+public class SumOfFactorial {
+
+    int[][] a = new int[2][4];
+
+    {
+        a[0] = new int[3];
+    }
+
+    public SumOfFactorial() {
+
+    }
 
     public static void main(String[] args) {
-        Test test = new Test();
-        List<Integer> input = Arrays.asList(10, 10, 10);
-        //using CountDownlatch & Runnable
-        long res = test.getResult(input);
-        //using CountDownlatch & Runnable & ExecutorService
-        long resExecutorService = test.getResultExecutorService(input);
-        //using CountDownlatch & callable & ExecutorService
-        long resExecutorServiceCallable = test.getResultExecutorServiceCallable(input);
-        //using callable & ExcecutorService & CompletionService
-        long resCompletionService = test.getResultCompletionService(input);
-        System.out.println("final result is " + res + ", " + resExecutorService + ", " + resExecutorServiceCallable + ", " + resCompletionService);
+//        Test test = new Test();
+//        List<Integer> input = Arrays.asList(10, 10, 10);
+//        //using CountDownlatch & Runnable
+//        long res = test.getResult(input);
+//        //using CountDownlatch & Runnable & ExecutorService
+//        long resExecutorService = test.getResultExecutorService(input);
+//        //using CountDown latch & callable & ExecutorService
+//        long resExecutorServiceCallable = test.getResultExecutorServiceCallable(input);
+//        //using callable & ExcecutorService & CompletionService
+//        long resCompletionService = test.getResultCompletionService(input);
+//        System.out.println("final result is " + res + ", " + resExecutorService + ", " + resExecutorServiceCallable + ", " + resCompletionService);
     }
 
     public long getResult(List<Integer> input) {
